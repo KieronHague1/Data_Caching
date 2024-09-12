@@ -20,14 +20,8 @@ function Maths() {
                     </p>
 
                     {/* Video Element to Display the Maths Video */}
-                    <video
-                        className="box-video"
-                        controls
-                        width="100%"
-                        height="auto"
-                    >
+                    <video className="box-video" controls>
                         <source src={mathsVideo} type="video/mp4" />
-                        Your browser does not support the video tag.
                     </video>
 
                     <h3>Why Learning Maths is Fun and Important</h3>

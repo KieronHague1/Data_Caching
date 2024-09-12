@@ -22,14 +22,8 @@ function English() {
                     </p>
 
                     {/* Video element to display the English video */}
-                    <video
-                        className="box-video"
-                        controls
-                        width="100%"
-                        height="auto"
-                    >
+                    <video className="box-video" controls>
                         <source src={englishVideo} type="video/mp4"/>
-                        Your browser does not support the video tag.
                     </video>
 
                     {/* Additional information and motivation for learning English */}
